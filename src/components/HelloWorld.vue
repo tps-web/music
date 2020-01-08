@@ -97,9 +97,11 @@
           <div v-else>
             暂无播放
           </div>
-      
         </van-collapse-item>
      </van-collapse>
+     <div class="nologin"  v-if="!isShow" @click="gourl('/login')">
+        您还没有登录！点击去登录
+     </div>
     <!-- 我的收藏 -->
     <van-collapse v-model="activeNames1" class="btn" v-if="isShow">
         <van-collapse-item title="我的收藏" name="1">
@@ -262,5 +264,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   @import url(./index.css);
-
+.nologin {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    margin-top: 50px;
+}
 </style>
