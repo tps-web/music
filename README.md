@@ -2,6 +2,14 @@
 
 > A Vue.js project
 
+### 用一个开源的网Y云音乐api项目 写的vue项目
+
+
+[NeteaseCloudMusicApi](https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi),网易云音乐NodeJS版 API文档
+
+
+[NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi),网易云音乐NodeJS版 API 项目地址
+
 ## Build Setup
 
 ``` bash
@@ -18,10 +26,7 @@ npm run build
 npm run build --report
 ```
 
-[NeteaseCloudMusicApi](https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=neteasecloudmusicapi),网易云音乐NodeJS版 API文档
 
-
-[NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi),网易云音乐NodeJS版 API 项目地址
 
 
 
