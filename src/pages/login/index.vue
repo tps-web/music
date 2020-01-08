@@ -53,9 +53,11 @@ export default {
              this.$toast('请输入用户名或密码')
         }else if(res.data.code==501){
             this.$toast('帐号不存在')
+        }else{
+          this.storeUserInfo(res);
+          this.$router.push('/')
         }
-        this.storeUserInfo(res);
-        this.$router.push('/')
+       
       }
    
    
