@@ -1,0 +1,37 @@
+.banner {
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+/* .singer {
+    margin-top: 10px;
+} */
+
+.singer_box {
+    display: flex;
+    width: 95%;
+    font-size: 14px;
+    /* background: #555; */
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.mun {
+    width: 15%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.sing_img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.name {
+    height: 44px;
+    line-height: 44px;
+    margin-left: 16px;
+}

@@ -1,0 +1,162 @@
+.login {
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.touxiang {
+    margin-top: 40px;
+}
+
+.username {
+    font-size: 14px;
+}
+
+.control {
+    margin-top: 20px;
+    color: black;
+}
+
+.btn {
+    text-align: left;
+    color: black;
+}
+
+.swipeBox {
+    width: 100%;
+    /* height: 150px; */
+}
+
+.top {
+    width: 100%;
+}
+
+.imgLeft {
+    position: relative;
+    float: left;
+    padding: 6px;
+    width: 44px;
+    z-index: 999;
+}
+
+.imgRight {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+
+.bannerImg {
+    width: 96%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.recommend {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.box {
+    width: 66px;
+    margin: 0 10px;
+    height: 60px;
+    background: red;
+    border-radius: 50%;
+}
+
+.yuan {
+    width: 66px;
+    height: 60px;
+}
+
+.tit {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.playlist {
+    position: relative;
+    top: 30px;
+    font-size: 16px;
+    border-top: 1px solid #ccc;
+}
+
+.playlist .title {
+    width: 97%;
+    float: left;
+    text-align: left;
+    padding: 8px 0 6px 8px;
+    font-weight: 700;
+}
+
+.play_box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.play_box .playlist_box {
+    width: 33.2%;
+    padding: 6px 0;
+}
+
+.playlist_box .decs {
+    font-size: 12px;
+    padding: 0 1px;
+}
+
+.play_img {
+    width: 94%;
+    border-radius: 4px;
+}
+
+.choiceness {
+    position: relative;
+    left: 0;
+    top: 40px;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+.choiceness .title {
+    width: 96%;
+    float: left;
+    text-align: left;
+    padding: 8px 0 6px 8px;
+    font-weight: 700;
+}
+
+.like {
+    display: flex;
+    padding: 4px 0;
+}
+
+.like:last-child {
+    margin-bottom: 60px;
+}
+
+.like_decs {
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.num {
+    margin-top: 4px;
+}
+
+.like_img {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+}
+
+.recordplay {
+    border-bottom: 1px solid #ccc;
+}
+
+.icon {
+    margin-top: 10px;
+}
